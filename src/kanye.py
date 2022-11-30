@@ -9,7 +9,7 @@ root.geometry("800x500")
 
 def gif():
     global image
-    image = Image.open("C:/Users/kalle/OneDrive/Töölaud/PythonProject/src/assets/kanye.gif")
+    image = Image.open("src/assets/kanye.gif")
     label = Label(root)
     label.place(x=100, y=100)
 
@@ -23,6 +23,7 @@ def gif():
 
 T = Label(root, wraplength=200)
 T.place(x=500, y=100)
+
 
 def gen():
     res = Quote.getData()
